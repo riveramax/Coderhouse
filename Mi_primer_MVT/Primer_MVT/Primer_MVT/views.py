@@ -12,7 +12,7 @@ def Fam_1(request):
         'prueba':'1234',
         'frutas':['asd', 'dfgdfg', '243423423']
     }
-    return render(request, 'Template_1.html', context = context)
+    return render(request, 'template_1.html', context = context)
 
 
 

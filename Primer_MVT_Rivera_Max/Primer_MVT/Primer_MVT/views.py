@@ -2,10 +2,8 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 
-def familiar_1 (request):
-    return HttpResponse ('F_1')
 
-def Fam_1(request):
+def familia(request):
     context = {
         'nombre':'Maxi',
         'apellido':'Rivera',
